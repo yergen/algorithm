@@ -1,0 +1,6 @@
+SEARCH(A,v);
+
+for i = 0 to (A.length-1)
+	if v == A[i]
+		return i
+return NIL	
