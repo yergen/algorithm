@@ -2,10 +2,10 @@
 
 int BinarySearch(int *A,int v);
 
-int BinarySearch(int *A,int length,int v)
+int BinarySearch(int *A,int v)
 {
 	int low = 0;
-	int high = length;
+	int high = sizeof(A)/sizeof(int);
 	int mid;
 
 	while(low < high)
@@ -29,7 +29,7 @@ int main()
 	int index;
 	printf("Please input a number that below 9:");
 	scanf("%d",&v);
-	index = BinarySearch(A,6,v);
+	index = BinarySearch(A,v);
 	printf("The index is %d\n",index);
 
 	return 0;
