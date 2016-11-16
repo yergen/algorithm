@@ -10,5 +10,6 @@
 * 数据结构
 * 分析技术
 * 图算法
-* 算法问题
-###
+* 算法问题<br/>
+参考网址：http://clrs.skanev.com/index.html<br/>
+http://www.cs.usfca.edu/~galles/visualization/Algorithms.html
